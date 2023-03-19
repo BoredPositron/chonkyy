@@ -1,5 +1,9 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(font2.ttf);
+}
 #jumble-word {
-    font-family: 'Raleway', sans-serif;
+    font-family:  myfirstfont;
     margin: 50px auto;
     width: 50%;
     text-align: center;
