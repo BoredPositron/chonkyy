@@ -31,7 +31,7 @@ const words = [
     if (userAnswer === answer) {
         window.location.href = "https://open.spotify.com/playlist/0h9KDLaiLVhZuWedWFTevK?si=60f8fffbc18747e7&pt=28a2247d3f6265c339d38c5fbfe6e3cd";
     } else {
-      document.getElementById("result").textContent = "Sorry, that's not correct. Please try again.";
+      alert("Incorrect! Please try again")
     }
   }
   
