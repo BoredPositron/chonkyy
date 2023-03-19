@@ -3,21 +3,21 @@
   src: url(font2.ttf);
 }
 #jumble-word {
-    font-family:  myfirstfont;
+    font-family:  myFirstFont;
     margin: 50px auto;
     width: 50%;
     text-align: center;
   }
   
   #jumble-word-text {
-    font-family: "font.ttf";
+    font-family: myFirstFont;
     font-size: 24px;
     font-weight: bold;
     margin: 20px 0;
   }
   
   #user-answer {
-    font-family: "font.ttf";
+    font-family:myFirstFont;
     padding: 10px;
     margin-right: 10px;
     border-radius: 15px;
@@ -30,4 +30,8 @@
     border: none;
     border-radius: 4px;
     cursor: pointer;
+  }
+
+  #Biryani{
+    font-family: myFirstFont;
   }
