@@ -4,8 +4,7 @@ const words = [
     "olive"
   ];
   
-  const answer1 = "i love you poorna";
-  const answer2 = "i love you poorna";
+  const answer = "i love you poorna";
   
   // Function to scramble the letters of a word
   function shuffleWord(word) {
@@ -32,9 +31,7 @@ const words = [
     if (userAnswer === answer1) {
         window.location.href = "cert.png";
     }
-    else if(userAnswer === answer2){
-      window.location.href = "cert.png"
-    } else {
+else {
       alert("Incorrect! Please try again")
     }
   }
