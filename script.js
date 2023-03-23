@@ -4,8 +4,8 @@ const words = [
     "olive"
   ];
   
-  const answer1 = "poorna and pratyush";
-  const answer2 = "pratyush and poorna";
+  const answer1 = "i love you poorna";
+  const answer2 = "i love you poorna";
   
   // Function to scramble the letters of a word
   function shuffleWord(word) {
