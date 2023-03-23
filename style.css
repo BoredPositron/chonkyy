@@ -35,3 +35,15 @@
   #Biryani{
     font-family: myFirstFont;
   }
+  #JumbledWords{
+    font-family: myFirstFont;
+  }
+  .cards{
+    background-color: yellow;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+  }
+  .card{flex: 0 1 24%;
+  }

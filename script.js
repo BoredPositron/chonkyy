@@ -4,7 +4,8 @@ const words = [
     "olive"
   ];
   
-  const answer = "i love u chonky";
+  const answer1 = "poorna and pratyush";
+  const answer2 = "pratyush and poorna";
   
   // Function to scramble the letters of a word
   function shuffleWord(word) {
@@ -28,8 +29,11 @@ const words = [
   // Function to check the user's answer
   function checkAnswer() {
     const userAnswer = document.getElementById("user-answer").value.toLowerCase();
-    if (userAnswer === answer) {
-        window.location.href = "https://open.spotify.com/playlist/0h9KDLaiLVhZuWedWFTevK?si=60f8fffbc18747e7&pt=28a2247d3f6265c339d38c5fbfe6e3cd";
+    if (userAnswer === answer1) {
+        window.location.href = "cert.png";
+    }
+    else if(userAnswer === answer2){
+      window.location.href = "cert.png"
     } else {
       alert("Incorrect! Please try again")
     }
